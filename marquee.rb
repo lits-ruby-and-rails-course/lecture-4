@@ -23,3 +23,5 @@
 # arz
 # rz
 # z
+
+a=" "*(z=$*[1].to_i)+$*[0];a.size.times{|b|puts a[b,z]}
